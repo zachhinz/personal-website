@@ -113,28 +113,26 @@ body{
 }
 
 .nav-link svg{
-    width:2rem;
+    width: 2rem;
     fill: black;
+    transition: var(--transition-speed);
 }
 
 .nav-link svg:hover{
     width:3rem;
 }
 
-.nav-link{
-    justify-content: center;
+li#projects svg:hover{
+    width:100rem;
 }
 
-.fa-primary {
-    fill: black;
-}
-  
-.fa-secondary {
-    fill: black;
+.nav-link{
+    justify-content: center;
 }
   
 .fa-primary, .fa-secondary {
     transition: var(--transition-speed);
+    fill: black;
 }
 
 #projects{
@@ -181,7 +179,7 @@ body{
     padding:2rem;
 }
 
-#contact{
+#contactme{
     padding:1rem;
 }
 
@@ -209,7 +207,6 @@ a:hover{
     height:var(--greetingheight);
     width:100vw;
     fill: var(--bg-tertiary);
-    transition:var(--transition-speed);
 }
 
 .blob g{

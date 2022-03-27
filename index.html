@@ -25,20 +25,19 @@
         <section id="greeting">
 
             <svg class="blob-motion" id="visual" viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 
-            <g transform="translate(442.7534938697591 230.43856271618353)">
-                <path id="blob1"
-                    d="M113.7 -64.1C146.1 -9.4 170.5 51.6 150.2 95.3C129.9 139 65 165.5 9.8 159.8C-45.3 154.2 -90.6 116.3 -117.5 68.8C-144.3 21.3 -152.7 -35.8 -130 -84.9C-107.4 -134 -53.7 -175 -6.5 -171.2C40.6 -167.4 81.2 -118.9 113.7 -64.1">
-                </path>
-            </g>
+                <g transform="translate(442.7534938697591 230.43856271618353)">
+                    <path id="blob1" d="M100.7.1">
+                    </path>
+                </g>
 
-            <g transform="translate(450 300)" style="visibility: hidden">
-                <path id = "blob2"
-                    d="M866 -500C1039.2 -200 1039.2 200 866 500C692.8 800 346.4 1000 0 1000C-346.4 1000 -692.8 800 -866 500C-1039.2 200 -1039.2 -200 -866 -500C-692.8 -800 -346.4 -1000 0 -1000C346.4 -1000 692.8 -800 866 -500"
-                    fill="#114B5F"></path>
-            </g>
-        </svg>
+                <g transform="translate(450 300)" style="visibility: hidden">
+                    <path id="blob2"
+                        d="M866 -500C1039.2 -200 1039.2 200 866 500C692.8 800 346.4 1000 0 1000C-346.4 1000 -692.8 800 -866 500C-1039.2 200 -1039.2 -200 -866 -500C-692.8 -800 -346.4 -1000 0 -1000C346.4 -1000 692.8 -800 866 -500"
+                        fill="#114B5F"></path>
+                </g>
+            </svg>
 
             <div id=name_descriptor>
                 <div id=name>
@@ -48,12 +47,12 @@
 
                 <h2 id="description">I'm a student and developer</h2>
             </div>
-            
+
         </section>
 
         <nav class="navbar">
             <ul class="navbar-nav">
-                <li><a href="home2.html" class="nav-link">
+                <li><a href="index.html" class="nav-link">
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330.242 330.242"
                             style="enable-background:new 0 0 330.242 330.242;" xml:space="preserve">
@@ -84,25 +83,14 @@
                         </svg>
                         <span class="link-text">About</span>
                     </a></li>
-                <li><a href="#projects" class="nav-link">
-                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35.033px"
-                            height="35.033px" viewBox="0 0 35.033 35.033"
-                            style="enable-background:new 0 0 35.033 35.033;" xml:space="preserve">
-                            <g>
-                                <path d="M11.811,10.535l-6.983,6.984l6.983,6.981c0.78,0.781,0.78,2.048,0,2.828c-0.392,0.392-0.901,0.586-1.414,0.586
-                       c-0.513,0-1.022-0.194-1.414-0.586l-8.397-8.396C0.211,18.558,0,18.049,0,17.519c0-0.529,0.211-1.039,0.586-1.414l8.397-8.398
-                       c0.781-0.78,2.047-0.78,2.828,0C12.591,8.488,12.591,9.752,11.811,10.535z M34.447,16.104l-8.396-8.398
-                       c-0.781-0.78-2.047-0.78-2.828,0c-0.781,0.781-0.781,2.047,0,2.828l6.982,6.984L23.223,24.5c-0.781,0.781-0.781,2.048,0,2.828
-                       c0.392,0.392,0.902,0.586,1.414,0.586s1.023-0.194,1.414-0.586l8.396-8.396c0.375-0.375,0.586-0.884,0.586-1.414
-                       C35.033,16.99,34.822,16.479,34.447,16.104z M21.012,3.831c-1.076-0.277-2.161,0.373-2.435,1.441l-6,23.498
-                       c-0.272,1.07,0.373,2.16,1.442,2.434c0.167,0.043,0.334,0.063,0.497,0.063c0.894,0,1.706-0.603,1.937-1.505l6-23.498
-                       C22.727,5.193,22.081,4.104,21.012,3.831z" class="fa-primary" />
-                            </g>
+                <li id="projectslink"><a href="#projects" class="nav-link">
+                        <svg viewBox="0 -2 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.7361611,0.063952038 C13.2551391,0.263360331 13.5227261,0.869148905 13.3338336,1.41701869 L8.54555162,15.3051026 C8.35665911,15.8529724 7.78281676,16.1354563 7.26383885,15.936048 C6.74486095,15.7366397 6.47727387,15.1308511 6.66616638,14.5829813 L11.4544484,0.694897379 C11.6433409,0.147027596 12.2171832,-0.135456255 12.7361611,0.063952038 Z M2.41421356,8.25614867 L5.94974747,11.9885083 C6.34027176,12.4007734 6.34027176,13.0691871 5.94974747,13.4814522 C5.55922318,13.8937173 4.9260582,13.8937173 4.53553391,13.4814522 L0.292893219,9.0026206 C-0.0976310729,8.59035554 -0.0976310729,7.9219418 0.292893219,7.50967674 L4.53553391,3.03084515 C4.9260582,2.61858008 5.55922318,2.61858008 5.94974747,3.03084515 C6.34027176,3.44311021 6.34027176,4.11152395 5.94974747,4.52378901 L2.41421356,8.25614867 Z M17.5857864,8.25614867 L14.0502525,4.52378901 C13.6597282,4.11152395 13.6597282,3.44311021 14.0502525,3.03084515 C14.4407768,2.61858008 15.0739418,2.61858008 15.4644661,3.03084515 L19.7071068,7.50967674 C20.0976311,7.9219418 20.0976311,8.59035554 19.7071068,9.0026206 L15.4644661,13.4814522 C15.0739418,13.8937173 14.4407768,13.8937173 14.0502525,13.4814522 C13.6597282,13.0691871 13.6597282,12.4007734 14.0502525,11.9885083 L17.5857864,8.25614867 Z" />
                         </svg>
                         <span class="link-text">Projects</span>
                     </a></li>
-                <li><a href="#contact" class="nav-link">
+                <li id="contact"><a href="#contactme" class="nav-link">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330.001 330.001"
                             style="enable-background:new 0 0 330.001 330.001;" xml:space="preserve">
@@ -172,8 +160,9 @@
             <div class=side></div>
 
             <div id="profile2">
-                <img class="photo" src="file:///Users/zacharyhinz/Documents/Photos/sanfran.jpg" width="400px"
-                    height="400px" alt="profile">
+                <img class="photo"
+                    src="https://raw.githubusercontent.com/zachhinz/personal-website/main/Content-Files/sanfran.jpg"
+                    width="400px" height="400px" alt="profile">
             </div>
 
             <div id="intro">
@@ -194,6 +183,12 @@
                     Outside of my interests in math and computing, I enjoy weight lifting, reading about public
                     transit, and practicing my Chinese.
                 </p>
+
+                <p>
+                    You can download my resume <a
+                        href="https://github.com/zachhinz/personal-website/blob/main/Content-Files/Hinz%2C%20Zachary%20Resume.pdf"
+                        target="_blank">here</a>.
+                </p>
             </div>
 
             <div class=side></div>
@@ -207,19 +202,23 @@
             <p>The code for all of my projects is also availible in full on Github</p>
 
             <ul>
-                <li><b><a href="home2.html">Personal Website</a></b>: Built from the ground up using CSS, HTML, and
-                    Javascript</li>
-                <li><b>Text Calculator</b>: Created text based calculator which uses postfix notation and doubly linked
-                    lists in Java</li>
-                <li><b>Silver Dollar Game</b>: Graphical version of the silver dollar game using Java</li>
-                <li><b>Darwin Simulation</b>: Java simulation using 4 different creatures built alongside my classmate
-                    Kenny
+                <li><b><a href="https://github.com/zachhinz/personal-website">Personal Website</a></b>: Built from the
+                    ground up using CSS, HTML, and
+                    Javascript.</li>
+                <li><b><a href="https://github.com/zachhinz/Java-Projects" target="_blank">Compression
+                            Algorithm:</b></a>: Creates and maintains a matrix of values, and updates values as
+                    necessary. Unnecessary nodes are dropped.
                 </li>
+                <li><b><a href="https://github.com/zachhinz/Java-Projects" target="_blank">Text Calculator</a></b>: Text
+                    based calculator which uses postfix notation and doubly linked
+                    lists in Java.</li>
+                <li><b><a href="https://github.com/zachhinz/Java-Projects" target="_blank">Silver Dollar Game</b></a>:
+                    Graphical version of the silver dollar game using Java.</li>
             </ul>
 
         </section>
 
-        <section id="contact">
+        <section id="contactme">
 
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSeEyyPrBFx7iX44_vKQWbZJxeFmBBdW36fxAbgO6ICjd8_Cbw/viewform?embedded=true"
@@ -231,7 +230,7 @@
                     '#blob1',
                     { path: '#blob1' },
                     { path: '#blob2' },
-                    { repeat: Infinity, duration: 5000, yoyo: true }
+                    { repeat: Infinity, duration: 5000, yoyo: true, easing: 'easeInElastic' }
                 )
                 blobmotion.start();
             </script>
