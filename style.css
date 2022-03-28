@@ -66,6 +66,13 @@ body{
     align-items: center;
 }
 
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar{
     position:sticky;
     top:0;
@@ -136,16 +143,18 @@ li#projects svg:hover{
 }
 
 .photo{
-    border-radius: 20%;
-    border: solid 2px var(--bg-quatrinary);
+    border-radius: 5%;
+    border: solid 3px var(--bg-quatrinary);
     margin-left:auto;
     margin-right:auto;
 }
 
 #intro{
+    display: block;
     text-align: justify;
-    margin:3rem;
-    max-width: 40rem;
+    margin:2rem;
+    max-width: 25rem;
+    min-width: 20rem;
 }
 
 #profile2{
@@ -153,7 +162,9 @@ li#projects svg:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:2rem;
+    margin:1rem;
+    max-width: 25rem;
+    min-width: 20rem;
 }
 
 #projects{
@@ -172,9 +183,11 @@ li#projects svg:hover{
 
 #contactme{
     padding:1rem;
+    width:100vw;
+    height:auto;
 }
 
-a:link{
+a:link, a:visited{
     text-decoration: none;
     color:white
 }
@@ -204,8 +217,13 @@ a:hover{
     fill: var(--bg-secondary);
 }
 
-@media screen and (max-width: 500px) {
-
+@media screen and (max-width: 600px) {
+    .column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
     .navbar{
         margin:0rem;
