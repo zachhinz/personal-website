@@ -73,7 +73,8 @@ body{
     justify-content: center;
     z-index: 1;
     margin: 2rem, 0rem;
-    background-color: var(--bg-secondary)
+    background-color: var(--bg-secondary);
+    width:100vw;
 }
 
 .nav-item{
@@ -146,8 +147,7 @@ li#projects svg:hover{
     display: block;
     text-align: justify;
     margin:2rem;
-    max-width: 25rem;
-    min-width: 20rem;
+    width: 25rem;
 }
 
 #profile2{
@@ -160,10 +160,7 @@ li#projects svg:hover{
 }
 
 #projects{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding:2rem;
 }
 
@@ -207,25 +204,3 @@ a:hover{
 .blob g{
     fill: var(--bg-secondary);
 }
-
-@media screen and (max-width: 600px) {
-    .column{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .navbar{
-        margin:0rem;
-    }
-
-    .nav-link{
-        width: 2rem;
-    }
-
-    .nav-link:hover{
-        width:3rem;
-    }
-  }
-  
