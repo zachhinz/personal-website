@@ -181,10 +181,9 @@ li#projects svg:hover{
     list-style: none;
 }
 
-#contactme{
-    padding:1rem;
+iframe{
+    width:650px;
     width:100vw;
-    height:auto;
 }
 
 a:link, a:visited{
