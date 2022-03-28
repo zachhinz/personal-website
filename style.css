@@ -139,8 +139,6 @@ li#projects svg:hover{
 .photo{
     border-radius: 5%;
     border: solid 3px var(--bg-quatrinary);
-    margin-left:auto;
-    margin-right:auto;
 }
 
 #intro{
@@ -166,12 +164,11 @@ li#projects svg:hover{
 
 #projects li{
     padding: 1rem;
-    max-width: 35rem;
-    list-style: none;
+    min-width: 16rem;
+    max-width: 25rem;
 }
 
 iframe{
-    width:650px;
     width:100vw;
 }
 
@@ -203,4 +200,11 @@ a:hover{
 
 .blob g{
     fill: var(--bg-secondary);
+}
+
+@media only screen and (max-width: 400px) {
+
+    .nav-link{
+        width: 2rem;
+    }
 }
