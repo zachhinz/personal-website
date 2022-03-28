@@ -139,8 +139,6 @@ li#projects svg:hover{
 .photo{
     border-radius: 5%;
     border: solid 3px var(--bg-quatrinary);
-
-    
 }
 
 #intro{
@@ -221,7 +219,20 @@ a:hover{
         width: 2rem;
     }
 
-    img{
+
+    #about{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #intro{
+        width: 15rem;
+    }
+
+    #profile2{
         position: relative;
         display: flex;
         flex-direction: column;
